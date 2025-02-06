@@ -15,6 +15,7 @@ public class Ogrenci {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long ogrno;
     private String ad;
+
     private String soyad;
     private String cinsiyet;
     private String sinif;
